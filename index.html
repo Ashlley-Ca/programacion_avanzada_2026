@@ -125,29 +125,112 @@ function holaMundo() {
                 </code></pre>
 
             </article>
-        </section>
-        <section class="card" id="listas"></section>
-            <div>
-                <ul>
-                    <li>Heather</li>
-                    <li>Ejercicio</li>
+        <section class="card" id="listas">
 
-                </ul>
-            </div> 
+    <h2>2. Listas</h2>
 
-         </section>
+    <h3>Lista desordenada</h3>
+    <ul>
+        <li>Heather</li>
+        <li>Ejercicio</li>
+    </ul>
+
+    <h3>Lista ordenada</h3>
+    <ol>
+        <li>Primer paso</li>
+        <li>Segundo paso</li>
+    </ol>
+
+</section>
+
          <section class="card" id="multimedia">
             <h2>Multimedia</h2>
-            <img src="https://thumbs.dreamstime.com/b/lindo-acercamiento-de-perros-bajo-el-agua-entre-la-inteligencia-artificial-burbujas-ilustraci%C3%B3n-mar-oscuro-nadar-perro-272284713.jpg" alt="Ejemplo de imagen" loading="lazy">
+            <img src="https://thumbs.dreamstime.com/b/lindo-acercamiento-de-perros-bajo-el-agua-entre-la-inteligencia-artificial-burbujas-ilustraci%C3%B3n-mar-oscuro-nadar-perro-272284713.jpg" 
+            alt="Ejemplo de imagen" 
+            loading="lazy">
 
          </section>
+         
+         <section class="card" id="tablas">
+            <style>
+                table, th, td {
+                    border:1px double black;
+                    border-collapse: collapse;
+                    padding:10px;
+                }
+            </style>
+            <h2>4> </h2>
+            <table> 
+                <caption>Tabla de ejemplo</caption>
+                <thead>
+                    <tr>
+                        <th scope="col"> Comando</th>
+                        <th scope="col"> ¿Que hace?</th>
+                    </tr>
+                </thead>
+                 <td><code>git status</code></td>
+                    <td> Muestras de Cambios pendientes</td>
+                </tr>
+
+                <tr>
+                    <td><code>git add</code></td>
+                    <td> Agrega cambios</td>
+                </tr>
+
+                <tr>
+                    <td><code>git  commit</code></td>
+                    <td> Guarda version</td>
+                </tr>
+
+                <tr>
+                    <td><code>git  push</code></td>
+                    <td> Sube al repoditorio remoto</td>
+                </tr>
+          </tbody>           
+            
+        </table>
+         </section>
+         <section clas="card" id="formularios">
+            <h2>5> Formularion</h2>
+            <form action="#" method="post" class="form">
+               <fieldset>
+                 <legend> Datos Basicos</legend>
+                 <label for="">
+                    Nombre
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" requiered>
+                 </label>
+                 <label for="">
+                    Email
+                    <input type="email" name="email" placeholder="Ingresa tu email" requiered>
+                 </label>
+                 <label for="">
+                    Paswword
+                    <input type="paswword" name="pass" minlength="6">
+                 </label>
+                 <label for="">
+                    Fecha
+                    <input type="date" name="Fecha">
+                 </label>
+                 <label for="">
+                    Seleccion
+                    <select name="Opcion">
+                        <option value=""> Elige la opción</option>
+                        <option >HTmL</option>
+                        <option >css</option>
+                        <option >git</option>
+                    </select>
+                 </label>
+               </fieldset>
+            </form>
+         </section>
+
 
     </main>
 
     <!-- PIE DE PÁGINA -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2026 - Proyecto de práctica HTML</p>
+            <p>&copy; 2026 - Proyecto práctica funcionalidad y estiquetas HTML</p>
         </div>
     </footer>
 
